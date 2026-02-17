@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+ <metadata name="site.edit" type="form">
+    <form>
+      <page name="optimization">
+        <field name="site_nginx_rate_limit">
+          <input type="text" name="site_nginx_rate_limit" check="int" checkargs="1,100000000000" />
+        </field>
+      </page>
+    </form>
+  </metadata>
+  <metadata name="webdomain.edit" type="form">
+    <form>
+      <page name="optimization">
+        <field name="nginx_rate_limit">
+          <input type="text" name="nginx_rate_limit" check="int" checkargs="1,100000000000" />
+        </field>
+      </page>
+    </form>
+  </metadata>
+  <lang name="ru">
+    <messages name="site.edit">
+      <msg name="site_nginx_rate_limit">Ограничение скорости</msg>
+      <msg name="hint_site_nginx_rate_limit">Ограничивает скорость передачи ответа клиенту</msg>
+    </messages>
+  </lang>
+  <lang name="en">
+    <messages name="site.edit">
+      <msg name="site_nginx_rate_limit">Rate limit</msg>
+      <msg name="hint_site_nginx_rate_limit">Limits the rate of response transmission to a client</msg>
+    </messages>
+  </lang>
+</mgrdata>
