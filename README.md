@@ -2,7 +2,7 @@
 * template-nginx-rate-limit - Add limit_rate to nginx
 # install
 ```
-git clone git@github.com:ispmanager-official/plugin-examples.git
+git clone https://github.com/ispmanager-official/plugin-examples.git
 cd plugin-examples
 ./install.sh template-nginx-rate-limit
 ```
